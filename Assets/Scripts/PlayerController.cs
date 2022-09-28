@@ -35,4 +35,10 @@ public class PlayerController : MonoBehaviour
     {
         GetComponent<PlayerMouvement>().enabled = true;
     }
+
+    public void Die()
+    {
+        Debug.Log("Player dead");
+        Destroy(gameObject, 0.5f);
+    }
 }

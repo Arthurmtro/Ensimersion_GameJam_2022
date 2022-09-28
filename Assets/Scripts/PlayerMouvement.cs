@@ -67,16 +67,8 @@ public class PlayerMouvement : MonoBehaviour
         }
     }
 
-    private void particleTrail()
+    private void drawTrailParticle() 
     {
-        // Particle Trail
-        if (Input.GetAxisRaw("Horizontal") != 0)
-        {
-            GetComponent<ParticleSystem>().Play();
-        }
-        else
-        {
-            GetComponent<ParticleSystem>().Stop();
-        }
+        // TODO
     }
 }
