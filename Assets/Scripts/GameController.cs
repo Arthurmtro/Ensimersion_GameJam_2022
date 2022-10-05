@@ -18,7 +18,13 @@ public class GameController : MonoBehaviour
     {
         DontDestroyOnLoad(this);
 
+<<<<<<< HEAD
         text.text = "Press Space to Start";
+=======
+        if(text) {
+            text.text = "Press Space to Start";
+        }
+>>>>>>> c3d387d3877e78c4fd0536eb35b5c9b5b05e2cd7
 
         spawnPoint = GameObject.FindGameObjectWithTag("Respawn");
     }
@@ -31,6 +37,13 @@ public class GameController : MonoBehaviour
             started = true;
             player = Instantiate(playerPrefab, spawnPoint.transform.position, Quaternion.identity);
             player.GetComponent<PlayerController>().StartGame(spawnPoint);
+<<<<<<< HEAD
+=======
+
+
+        if(text) {
+        }
+>>>>>>> c3d387d3877e78c4fd0536eb35b5c9b5b05e2cd7
             text.enabled = false;
         }
     }
