@@ -34,10 +34,9 @@ public class GameController : MonoBehaviour
             player = Instantiate(playerPrefab, spawnPoint.transform.position, Quaternion.identity);
             player.GetComponent<PlayerController>().StartGame(spawnPoint);
 
-
-        if(text) {
-        }
-            text.enabled = false;
+            if(text) {
+                text.enabled = false;
+            }
         }
     }
 }
