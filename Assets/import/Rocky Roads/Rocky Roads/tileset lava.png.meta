@@ -3,7 +3,7 @@ guid: c4954cfad5d41f4409d5a11283d32ea9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -997,9 +996,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tileset lava_11: -1044650871
-      tileset lava_8: -1230045024
       tileset lava_13: -1009856490
+      tileset lava_8: -1230045024
+      tileset lava_11: -1044650871
+      tileset lava_41: 1626468904
       tileset lava_3: 1713566925
       tileset lava_18: 140083357
       tileset lava_22: -253482091
@@ -1024,7 +1024,6 @@ TextureImporter:
       tileset lava_2: 118256422
       tileset lava_19: -759904478
       tileset lava_4: 377730442
-      tileset lava_41: 1626468904
       tileset lava_25: -1402135222
       tileset lava_27: 793214535
       tileset lava_40: 577294604
