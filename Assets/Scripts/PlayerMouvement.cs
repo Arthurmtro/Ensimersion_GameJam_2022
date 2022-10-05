@@ -67,8 +67,8 @@ public class PlayerMouvement : MonoBehaviour
         }
     }
 
-    private void drawTrailParticle() 
+    public void resetVelocity() 
     {
-        // TODO
+        rb.velocity = Vector3.zero;
     }
 }
