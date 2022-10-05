@@ -14,10 +14,6 @@ GameObject:
   - component: {fileID: 3536023087045521704}
   - component: {fileID: 3536023087045521707}
   - component: {fileID: 3536023087045521706}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 3226019805280944870}
->>>>>>> c3d387d3877e78c4fd0536eb35b5c9b5b05e2cd7
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -81,11 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-=======
   m_Sprite: {fileID: 557686858, guid: 1c4a45316a71c22489f0e08f2c264449, type: 3}
->>>>>>> c3d387d3877e78c4fd0536eb35b5c9b5b05e2cd7
   m_Color: {r: 0.27305093, g: 0.59332854, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,7 +126,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.16, y: 0.16}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -175,29 +167,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   cameraSpeed: 5
-<<<<<<< HEAD
-  particleSystem: {fileID: 2957839627476974130, guid: 8bdc341be4f9c4d68b6c5f713217697c, type: 3}
   particleSystemPrefab: {fileID: 5710077376257153612, guid: 8bdc341be4f9c4d68b6c5f713217697c, type: 3}
-=======
-  particleSystemPrefab: {fileID: 5710077376257153612, guid: 8bdc341be4f9c4d68b6c5f713217697c, type: 3}
---- !u!95 &3226019805280944870
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3536023087045521708}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
->>>>>>> c3d387d3877e78c4fd0536eb35b5c9b5b05e2cd7
