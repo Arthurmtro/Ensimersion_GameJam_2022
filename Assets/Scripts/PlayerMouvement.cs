@@ -34,6 +34,17 @@ public class PlayerMouvement : MonoBehaviour
     {
         // Movement
         Vector3 moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0);
+
+        // transform sprite for direction
+        if (moveInput.x > 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (moveInput.x < 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+
         Vector3 moveVelocity = moveInput.normalized * moveSpeed;
 
         Vector3 targetVelocity = new Vector2(moveVelocity.x, rb.velocity.y);
