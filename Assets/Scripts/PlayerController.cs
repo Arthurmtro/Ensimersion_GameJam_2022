@@ -54,9 +54,11 @@ public class PlayerController : MonoBehaviour
         GetComponent<BoxCollider2D>().enabled = false;
         playerMouvement.resetVelocity();
         isDead = true;
-        ParticleSystem particleSystem = Instantiate(particleSystemPrefab, this.transform.position, Quaternion.identity).GetComponent<ParticleSystem>();
+        GameObject particleObj = Instantiate(particleSystemPrefab, this.transform.position, Quaternion.identity);
+        ParticleSystem particleSystem = particleObj.GetComponent<ParticleSystem>();
         particleSystem.Emit(30);
-        Debug.Log("DEADD");
+
+        Destroy(particleObj, 3f);
     }
 
     private void backToSpawnPoint()
@@ -78,6 +80,5 @@ public class PlayerController : MonoBehaviour
         this.transform.position = position;
 
         Debug.Log(Vector3.Distance(spawnPoint.transform.position, this.transform.position) );
-
     }
 }
